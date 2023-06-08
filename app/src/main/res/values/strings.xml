@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ACM</string>
+    <string name="Link">
+        Click <a href="https://www.beecrowd.com.br/judge/en/categories"> here </a> for Beecrowd.
+    </string>
+    <string name="GreenSheet">
+        Click <a href="https://docs.google.com/spreadsheets/d/1LiLNPbwSqKssPZSHRUzVG4d9TT_xQFB4oj52zmVGxLs/edit?fbclid=IwAR1ufdeI5uL63p7eriXA_ZIVerjmAoYRUVRuYKNevnHQvgvMaqQOAPDDNUE#gid=0"> here </a> for GreenSheet.
+    </string>
+    <string name="Tracker">
+        Click <a href="https://docs.google.com/spreadsheets/d/1q1ol7O5-zHb4jLCbBOOAV0Q1aw151M7zfOWt4lp1xbY/edit#gid=1980448440">here </a>
+    </string>
+    <string name="PDF">
+        Click <a href="https://github.com/n-o-r-y/bangla-programming-resources"> here </a>
+    </string>
+    <string name="Class">
+        Click <a href=""> here</a>
+    </string>
+    <string-array name="String_array">
+        <item></item>
+        <item>Blue-1</item>
+        <item>Blue-2</item>
+        <item>Blue-3</item>
+        <item>Blue-4</item>
+        <item>Blue-5</item>
+        <item>Blue-6</item>
+        <item>Blue-7</item>
+        <item>Blue-8</item>
+        <item>Blue-9</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".Blue">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/blue"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Sheets"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            ></TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE DIVISION:
+Green ঠিকমতো শেষ হলে Blue-তে ঢোকা যাবে। প্রত্যেক সেমিস্টারের শুরুতে Blue Sheet-এ Access নেওয়ার সুযোগ দেওয়া হবে। Blue-এর Practice-এর জন্য Blue practice tracker sheet-এ নিয়মিত প্রবলেম দেয়া হয়।
+"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click the spinner to see blue sheets:"
+        android:layout_marginTop="10dp"></TextView>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SpinID"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="RED DIVISION:
+প্রতি সেমিস্টারের শেষে Blue দের Performance মূল্যায়ন করা হবে। Red-এ Promotion পেতে গেলে Blue এর সব প্রবলেম দেয়া হয়ে যাওয়ার পর Blue Sheet-এর অন্তত ৮০% Problem Solved থাকতে হবে এবং Codeforces ১৫০০+ Rating (কমপক্ষে ২০টি Contest ও শেষ ১ মাসে কমপক্ষে ২টি Contest Participation থাকতে হবে)। বাকিরা Blue তে থেকে যাবে এবং নিজেদের গতিতে কাজ শেষ করে পরবর্তী সেমিস্টারে Red-এ যাওয়ার সুযোগ পাবে। এখন পর্যন্ত Red Division শুরু করা যায়নি। আশা করা যাচ্ছে Blue Sheet থেকে যারা ভালো করবে তাদের নিয়ে শীঘ্রই Red শুরু করা যাবে।"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="    A dream doesn't become reality through MAGIC.\n It takes Determination, Hard Work and Perseverance."
+        ></TextView>
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Previous"
+        android:id="@+id/previousID_blue"
+        android:textStyle="bold">
+    </Button>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Beginner">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@color/blue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="  Hello Programmer!"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffff">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t\tWelcome to the world of programming! Embrace challenges as opportunities to grow.\nBelieve in yourself... keep coding... and watch your dreams come to life!"
+            android:textSize="20sp"
+            android:textColor="@color/black">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="55dp"
+            android:text="\nTo enrich your knowledge and start coding, you can practice on online coding platforms.\n Links are given bellow:"
+            android:textSize="20sp"
+            android:textColor="@color/black">
+        </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Link"
+        android:id="@+id/beeCrID"
+        android:layout_marginLeft="25dp"
+        android:textSize="20sp"
+        android:textColor="@color/black">
+     </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/GreenSheet"
+            android:id="@+id/GreenID"
+            android:layout_marginLeft="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/black">
+        </TextView>
+     </LinearLayout>
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Previous"
+        android:id="@+id/previousID"
+        android:textStyle="bold">
+    </Button>
+</LinearLayout>
